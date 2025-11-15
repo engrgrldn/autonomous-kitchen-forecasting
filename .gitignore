@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+*.pyc
+__pycache__/
+
+# Credentials (CRITICAL - don't commit!)
+*key.json
+*.json
+!dbt_project.json
+!packages.json
+gcp-keys/
+.dbt/
+*.env
+
+# Data files (too large)
+*.csv
+data_*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+application_default_credentials.json
