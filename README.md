@@ -94,6 +94,34 @@ graph LR
 | **Model** | Python (XGBoost, Prophet) | Demand forecasting | Predictions |
 | **Serve** | CSV, Charts | Business insights | Metrics & viz |
 
+## 🔄 Orchestration (Airflow-Ready)
+
+This pipeline is designed to be orchestration-ready. The modular structure allows easy integration with Apache Airflow:
+
+**Proposed DAG Structure:**
+```python
+# Pseudocode for production Airflow DAG
+dag = DAG('kitchen_demand_forecast', schedule_interval='@daily')
+
+task1 = PythonOperator(task_id='generate_data')           # Data ingestion
+task2 = PythonOperator(task_id='load_to_bigquery')       # Load to warehouse  
+task3 = BashOperator(task_id='dbt_run')                  # dbt transformations
+task4 = PythonOperator(task_id='export_ml_features')     # Prepare ML data
+task5 = PythonOperator(task_id='train_forecast_model')   # Model training
+task6 = PythonOperator(task_id='generate_predictions')   # Generate forecasts
+
+task1 >> task2 >> task3 >> task4 >> task5 >> task6
+```
+
+**Pipeline Execution Order:**
+1. Data Generation/Ingestion
+2. BigQuery Load
+3. dbt Transformations (staging → intermediate → ML features)
+4. Feature Export
+5. Model Training
+6. Forecast Generation
+
+   
 ## 👤 Author
 
 **Geraldine Castillo**
