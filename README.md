@@ -121,7 +121,14 @@ task1 >> task2 >> task3 >> task4 >> task5 >> task6
 5. Model Training
 6. Forecast Generation
 
-   
+## 🚀 Quick Start
+
+Run the entire pipeline:
+```bash
+./run_pipeline.sh
+```
+
+This executes all steps in sequence (orchestration-ready for Airflow).
 ## 👤 Author
 
 **Geraldine Castillo**
