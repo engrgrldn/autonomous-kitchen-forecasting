@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: autonomous-kitchen-forecast
+    schema: raw_data
+    tables:
+      - name: orders_raw
+        description: "Raw orders data from autonomous kitchens"
+      - name: kitchen_operations_raw
+        description: "Robot performance and operations data"
+      - name: external_factors_raw
+        description: "Weather, holidays, and external factors"

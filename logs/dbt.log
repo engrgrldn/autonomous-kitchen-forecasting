@@ -1,0 +1,30 @@
+[0m18:20:39.356143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018403E481A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001847FE6CA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018404F4A210>]}
+
+
+============================== 18:20:39.362297 | 2df428e5-a218-45db-9af5-8a53b232f262 ==============================
+[0m18:20:39.362297 [info ] [MainThread]: Running with dbt=1.10.15
+[0m18:20:39.363198 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': 'C:\\Users\\GenevaCastillo\\.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'target_path': 'None', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init kitchen_analytics', 'printer_width': '80', 'write_json': 'True'}
+[0m18:20:39.399008 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\GenevaCastillo\.dbt
+[0m18:20:39.402573 [debug] [MainThread]: Starter project path: C:\Users\GenevaCastillo\autonomous-kitchen-forecasting\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:20:39.436947 [info ] [MainThread]: 
+Your new dbt project "kitchen_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:20:39.437928 [info ] [MainThread]: Setting up your profile.
+[0m18:21:47.798658 [info ] [MainThread]: Profile kitchen_analytics written to C:\Users\GenevaCastillo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:21:47.801176 [debug] [MainThread]: Command `dbt init` succeeded at 18:21:47.800902 after 68.58 seconds
+[0m18:21:47.802028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842197B6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000184219E96D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001842190B790>]}
+[0m18:21:47.802891 [debug] [MainThread]: Flushing usage events
+[0m18:21:48.669447 [debug] [MainThread]: An error was encountered while trying to flush usage events

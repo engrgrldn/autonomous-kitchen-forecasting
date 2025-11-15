@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: ml_forecast_features
+    description: "Complete feature set for demand forecasting ML models"
+    columns:
+      - name: date
+        description: "Date of observation"
+        tests:
+          - not_null
+          - unique:
+              column_name: "concat(cast(date as string), location_id)"
+      
+      - name: location_id
+        description: "Kitchen location identifier"
+        tests:
+          - not_null
+      
+      - name: total_orders
+        description: "Total number of orders (TARGET VARIABLE)"
+        tests:
+          - not_null
