@@ -64,7 +64,7 @@ Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 -  Production-ready data pipeline
 -  Comprehensive testing and validation
 
-## 🏗️ Data Architecture
+## Data Architecture
 
 ### High-Level Architecture
 ```mermaid
@@ -94,7 +94,7 @@ graph LR
 | **Model** | Python (XGBoost, Prophet) | Demand forecasting | Predictions |
 | **Serve** | CSV, Charts | Business insights | Metrics & viz |
 
-## 🔄 Orchestration (Airflow-Ready)
+## Orchestration (Airflow-Ready)
 
 This pipeline is designed to be orchestration-ready. The modular structure allows easy integration with Apache Airflow:
 
@@ -121,7 +121,7 @@ task1 >> task2 >> task3 >> task4 >> task5 >> task6
 5. Model Training
 6. Forecast Generation
 
-## 🚀 Quick Start
+## Quick Start
 
 Run the entire pipeline:
 ```bash
@@ -129,11 +129,11 @@ Run the entire pipeline:
 ```
 
 This executes all steps in sequence (orchestration-ready for Airflow).
-## 👤 Author
+## Author
 
 **Geraldine Castillo**
 [- LinkedIn: (https://www.linkedin.com/in/engrgrldn/)
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
