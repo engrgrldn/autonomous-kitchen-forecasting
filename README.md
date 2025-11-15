@@ -2,16 +2,16 @@
 
 End-to-end demand forecasting system for autonomous kitchen operations using Google Cloud Platform, dbt, and Machine Learning.
 
-## 🎯 Project Overview
+## Project Overview
 
-Built for **MOSTLY AI / Circus AI Project Manager Application** - demonstrates production-grade data pipeline and ML forecasting capabilities for autonomous food production systems.
+demonstrates production-grade data pipeline and ML forecasting capabilities for autonomous food production systems.
 
-## 🏗️ Architecture
+## Architecture
 ```
 Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Cloud Platform**: Google Cloud Platform (BigQuery, Vertex AI)
 - **Data Transformation**: dbt (data build tool)
@@ -19,13 +19,13 @@ Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 - **Languages**: Python, SQL
 - **Orchestration**: Airflow-ready pipeline structure
 
-## 📊 Results
+## Results
 
 - **Dataset**: 164K+ orders across 3 locations over 3 months
 - **Best Model**: XGBoost (R² = 0.20, MAE = ~60 orders)
 - **Features Engineered**: 30+ features including lag features, rolling averages, external factors
 
-## 📁 Project Structure
+## Project Structure
 ```
 ├── generate_data_optimized.py       # Synthetic data generation
 ├── export_ml_features.py            # Export features from BigQuery
@@ -41,7 +41,7 @@ Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Google Cloud Platform account
@@ -55,20 +55,19 @@ Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 4. Execute dbt models
 5. Train ML models
 
-## 📈 Key Features
+## Key Features
 
-- ✅ Dimensional data modeling (star schema)
-- ✅ Feature engineering with lag features and rolling averages
-- ✅ Multiple ML model comparison
-- ✅ Production-ready data pipeline
-- ✅ Comprehensive testing and validation
+-  Dimensional data modeling (star schema)
+-  Feature engineering with lag features and rolling averages
+-  Multiple ML model comparison<img width="2250" height="750" alt="model_comparison" src="https://github.com/user-attachments/assets/a7dd6e8d-dd51-4845-90c0-b35a3a799b5e" />
+
+-  Production-ready data pipeline
+-  Comprehensive testing and validation
 
 ## 👤 Author
 
-**Gigi Castillo**
-- LinkedIn: [Your LinkedIn]
-- Email: castillo.marygeraldine@gmail.com
-- Portfolio: [Your Portfolio]
+**Geraldine Castillo**
+[- LinkedIn: (https://www.linkedin.com/in/engrgrldn/)
 
 ## 📝 License
 
