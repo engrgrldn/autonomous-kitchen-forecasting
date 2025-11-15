@@ -64,6 +64,36 @@ Raw Data → BigQuery → dbt (Transform) → ML Models → Forecasts
 -  Production-ready data pipeline
 -  Comprehensive testing and validation
 
+## 🏗️ Data Architecture
+
+### High-Level Architecture
+```mermaid
+graph LR
+    A[Data Generation] --> B[BigQuery Raw]
+    B --> C[dbt Transformations]
+    C --> D[ML Features]
+    D --> E[ML Models]
+    E --> F[Forecasts & Metrics]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style C fill:#e8f5e9
+    style D fill:#f3e5f5
+    style E fill:#fce4ec
+    style F fill:#e0f2f1
+```
+
+### Data Flow Layers
+
+| Layer | Tools | Purpose | Output |
+|-------|-------|---------|--------|
+| **Ingestion** | Python | Generate synthetic data | 164K+ orders |
+| **Storage** | BigQuery | Cloud data warehouse | Raw tables |
+| **Transform** | dbt | Clean & aggregate | 276 daily records |
+| **Features** | SQL + dbt | Feature engineering | 30+ ML features |
+| **Model** | Python (XGBoost, Prophet) | Demand forecasting | Predictions |
+| **Serve** | CSV, Charts | Business insights | Metrics & viz |
+
 ## 👤 Author
 
 **Geraldine Castillo**
