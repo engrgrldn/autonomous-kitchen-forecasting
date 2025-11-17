@@ -7,19 +7,19 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a **production-grade, AI-enhanced demand forecasting pipeline** for autonomous kitchen operations. It goes beyond traditional ML by integrating:
 
-✅ **AI-Augmented Forecasting** - LLM-powered natural language explanations  
-✅ **Advanced Deep Learning** - Transformer models with attention mechanisms  
-✅ **Causal Inference** - Understanding true causal relationships  
-✅ **Enhanced Synthetic Data** - Privacy-preserving data generation with quality metrics  
-✅ **Edge AI Deployment** - Optimized models for Raspberry Pi / Jetson Nano  
+**AI-Augmented Forecasting** - LLM-powered natural language explanations  
+**Advanced Deep Learning** - Transformer models with attention mechanisms  
+**Causal Inference** - Understanding true causal relationships  
+**Enhanced Synthetic Data** - Privacy-preserving data generation with quality metrics  
+**Edge AI Deployment** - Optimized models for Raspberry Pi / Jetson Nano  
 
 ---
 
-## 📊 Architecture
+## Architecture
 
 ```
 Raw Data → BigQuery → dbt Transform → ML Features
@@ -42,7 +42,7 @@ Raw Data → BigQuery → dbt Transform → ML Features
 
 ---
 
-## 🆕 What's New - Enhanced Features
+## What's New - Enhanced Features
 
 ### 1. **AI-Augmented Forecasting** (`llm_explainer.py`)
 
@@ -269,7 +269,7 @@ Power Consumption: 3.2W
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 ```bash
@@ -308,7 +308,7 @@ python enhanced_pipeline.py
 
 ---
 
-## 📈 Usage Examples
+## Usage Examples
 
 ### Complete Enhanced Pipeline
 
@@ -371,7 +371,7 @@ results = analyzer.analyze_impact(data, pre_period, post_period)
 
 ---
 
-## 📊 Results & Performance
+## Results & Performance
 
 ### Baseline vs Enhanced Models
 
@@ -418,7 +418,7 @@ ROI: 1,752% in first year
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 autonomous-kitchen-forecasting/
@@ -476,7 +476,7 @@ autonomous-kitchen-forecasting/
 
 ---
 
-## 💼 Relevance to Job Applications
+## Relevance to Job Applications
 
 ### For **Circus** (Senior Analytics Engineer)
 
@@ -509,7 +509,7 @@ autonomous-kitchen-forecasting/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Short-term (1-2 months)
 - [ ] Real-time streaming inference with Kafka
@@ -531,22 +531,22 @@ autonomous-kitchen-forecasting/
 
 ---
 
-## 📝 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-## 👤 Author
+## Author
 
 **Geraldine Castillo**  
 Industrial Engineering + Business Analytics  
-🔗 [LinkedIn](https://www.linkedin.com/in/engrgrldn/)  
-📧 Contact: [GitHub Profile](https://github.com/engrgrldn)
+ [LinkedIn](https://www.linkedin.com/in/engrgrldn/)  
+Contact: [GitHub Profile](https://github.com/engrgrldn)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **NVIDIA RAPIDS** - GPU acceleration inspiration
 - **Anthropic** - Claude API for LLM explanations
@@ -556,7 +556,7 @@ Industrial Engineering + Business Analytics
 
 ---
 
-## ⭐ Star History
+##  Star History
 
 If you find this project useful, please consider giving it a star! 🌟
 
