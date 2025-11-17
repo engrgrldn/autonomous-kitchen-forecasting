@@ -452,7 +452,7 @@ autonomous-kitchen-forecasting/
 
 ---
 
-## 🎓 Learning Resources
+## Learning Resources
 
 ### Papers & References
 
@@ -481,11 +481,11 @@ autonomous-kitchen-forecasting/
 ### For **Circus** (Senior Analytics Engineer)
 
 **Direct Relevance:**
-✅ End-to-end data pipeline (BigQuery + dbt + ML)  
-✅ Production-grade forecasting system  
-✅ Advanced feature engineering (30+ features)  
-✅ Model monitoring & explainability (LLM integration)  
-✅ Performance optimization (13x speedup potential with RAPIDS)
+End-to-end data pipeline (BigQuery + dbt + ML)  
+Production-grade forecasting system  
+Advanced feature engineering (30+ features)  
+Model monitoring & explainability (LLM integration)  
+Performance optimization (13x speedup potential with RAPIDS)
 
 **Talking Points:**
 - "Built production pipeline processing 164K+ orders with sub-60 MAE"
@@ -495,11 +495,11 @@ autonomous-kitchen-forecasting/
 ### For **MOSTLY AI** (AI Project Manager)
 
 **Direct Relevance:**
-✅ Synthetic data generation with privacy guarantees  
-✅ Quality assessment framework (5+ metrics)  
-✅ Statistical similarity preservation  
-✅ ML utility validation  
-✅ Production-ready synthetic data pipeline
+Synthetic data generation with privacy guarantees  
+Quality assessment framework (5+ metrics)  
+Statistical similarity preservation  
+ML utility validation  
+Production-ready synthetic data pipeline
 
 **Talking Points:**
 - "Developed synthetic data generator with differential privacy (ε=1.0)"
@@ -560,6 +560,4 @@ Contact: [GitHub Profile](https://github.com/engrgrldn)
 
 If you find this project useful, please consider giving it a star! 🌟
 
----
 
-**Built with ❤️ for the future of AI-powered demand forecasting**
